@@ -1,0 +1,7 @@
+{{each list as o idx}}
+{{if o.location === location}}
+<div class="{{location}}_ad">
+	{{@o.content}}
+</div>
+{{/if}}
+{{/each}}

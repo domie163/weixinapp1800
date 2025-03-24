@@ -1,0 +1,283 @@
+{
+	"topWindow": {
+		"path": "windows/page_header.vue",
+		"style": {
+			"height": "60px"
+		},
+		"matchMedia": {
+			"minWidth": 1200 //生效条件，当窗口宽度大于768px时显示
+		}
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/webview/webview",
+			"style" :
+			{
+				"navigationBarTitleText": "网址跳转"
+			}
+		},
+		{
+			"path": "pages/comment/edit",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/media/music",
+			"style": {
+				"navigationBarTitleText": "音乐",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/image",
+			"style": {
+				"navigationBarTitleText": "图片预览",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/account/forgot",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/account/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/account/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": "新闻信息"
+			}
+		},{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "新闻信息列表"
+			}
+		}, {
+			"path": "pages/article/details",
+			"style": {
+				"navigationBarTitleText": "新闻信息详情"
+			}
+		},
+		{
+			"path": "pages/notice/list",
+			"style": {
+				"navigationBarTitleText": "公告信息列表"
+			}
+		},
+		{
+			"path": "pages/notice/details",
+			"style": {
+				"navigationBarTitleText": "公告信息"
+			}
+		},
+										// 招聘信息列表路由
+		{
+			"path": "pages/recruitment_information/list",
+			"style": {
+				"navigationBarTitleText": "招聘信息列表"
+			}
+		},
+				// 招聘信息详情路由
+		{
+			"path": "pages/recruitment_information/details",
+			"style": {
+				"navigationBarTitleText": "招聘信息"
+			}
+		},
+					// 求职信息列表路由
+		{
+			"path": "pages/job_information/list",
+			"style": {
+				"navigationBarTitleText": "求职信息列表"
+			}
+		},
+				// 求职信息详情路由
+		{
+			"path": "pages/job_information/details",
+			"style": {
+				"navigationBarTitleText": "求职信息"
+			}
+		},
+				// 简历信息编辑路由
+		{
+			"path": "pages/resume_information/edit",
+			"style": {
+				"navigationBarTitleText": "简历信息"
+			}
+		},
+									// 个人用户列表路由
+		{
+			"path": "pages/individual_users/table",
+			"style": {
+				"navigationBarTitleText": "个人用户列表"
+			}
+		},
+		// 个人用户编辑路由
+		{
+			"path": "pages/individual_users/view",
+			"style": {
+				"navigationBarTitleText": "个人用户编辑"
+			}
+		},
+				// 企业用户列表路由
+		{
+			"path": "pages/enterprise_users/table",
+			"style": {
+				"navigationBarTitleText": "企业用户列表"
+			}
+		},
+		// 企业用户编辑路由
+		{
+			"path": "pages/enterprise_users/view",
+			"style": {
+				"navigationBarTitleText": "企业用户编辑"
+			}
+		},
+				// 招聘信息列表路由
+		{
+			"path": "pages/recruitment_information/table",
+			"style": {
+				"navigationBarTitleText": "招聘信息列表"
+			}
+		},
+		// 招聘信息编辑路由
+		{
+			"path": "pages/recruitment_information/view",
+			"style": {
+				"navigationBarTitleText": "招聘信息编辑"
+			}
+		},
+				// 求职信息列表路由
+		{
+			"path": "pages/job_information/table",
+			"style": {
+				"navigationBarTitleText": "求职信息列表"
+			}
+		},
+		// 求职信息编辑路由
+		{
+			"path": "pages/job_information/view",
+			"style": {
+				"navigationBarTitleText": "求职信息编辑"
+			}
+		},
+				// 简历信息列表路由
+		{
+			"path": "pages/resume_information/table",
+			"style": {
+				"navigationBarTitleText": "简历信息列表"
+			}
+		},
+		// 简历信息编辑路由
+		{
+			"path": "pages/resume_information/view",
+			"style": {
+				"navigationBarTitleText": "简历信息编辑"
+			}
+		},
+				// 个人简历列表路由
+		{
+			"path": "pages/curriculum_vitae/table",
+			"style": {
+				"navigationBarTitleText": "个人简历列表"
+			}
+		},
+		// 个人简历编辑路由
+		{
+			"path": "pages/curriculum_vitae/view",
+			"style": {
+				"navigationBarTitleText": "个人简历编辑"
+			}
+		},
+			{
+			"path": "pages/user/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长盛",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#3388FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home_a.png",
+				"selectedIconPath": "static/img/home_b.png"
+			},
+			{
+				"pagePath": "pages/article/index",
+				"text": "新闻信息",
+				"iconPath": "static/img/article_a.png",
+				"selectedIconPath": "static/img/article_b.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/img/my_a.png",
+				"selectedIconPath": "static/img/my_b.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^mm_(.*)": "@/components/mm_vue_ui/base/mm_$1.vue"
+		}
+	}
+}

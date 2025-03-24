@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<!-- 页眉 -->
+	<head>
+		<%include('./common/head.html')%>
+		<title>首页</title>
+	</head>
+
+	<!-- /页眉 -->
+	<body>
+		<div id="app">
+			<div class="page_index" id="page_index">
+				
+				<!-- 页头 -->
+				<%include('./common/header.html')%>
+				<!-- /页头 -->
+				
+				<!-- 主体 -->
+				<main>
+					<%include('./components/ad.html',{list: list_ad,location:"联系方式"})%>
+					{{list}}
+				</main>
+				<!-- /主体 -->
+				
+				<!-- 页脚 -->
+				<%include('./common/footer.html')%>
+				<!-- /页脚 -->
+			</div>
+		</div>
+
+		<!-- 页尾 -->
+		<%include('./common/foot.html')%>
+		<!-- /页尾 -->
+
+	</body>
+
+</html>
